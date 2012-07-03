@@ -8,10 +8,10 @@
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  *
  */
-abstract class Kohana_CityLinkDeliveryZone
+abstract class Kohana_City_Link
 {
-	public static function find_by_postcode($postcode)
+	public static function find_zone_by_postcode($postcode)
 	{
-		return CityLink_Delivery_Zone::find_by_postcode($postcode);
+		return CityLinkDeliveryZone::find_by_postcode($postcode);
 	}
 }
